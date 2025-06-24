@@ -1,118 +1,125 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm MOYA MO, a passionate IT graduate based in Auckland, New Zealand. I specialize in full-stack development using React, Flask, and MySQL. I'm always eager to tackle real-world challenges with creative and efficient code.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
     },
-    "projects": [
+    "name": "Moya Mo",
+    "titles": ["Front-end Developer", "IT Graduate"],
+    "social": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
+        "name": "github",
+        "url": "https://dcinshire.github.io/react-frontend-dev-portfolio/",
+        "class": "fab fa-github"
       }
     ],
-    "experience": [
+    "image": "myProfile.jpg"
+  },
+  "projects": [
+    {
+      "title": "New Zealand Weather Metrics System",
+      "startDate": "2024",
+      "description": "A full-stack application allowing users to select and track weather forecasts for specific locations using Google Maps and MetService API. Built with React and Flask. Hosted on PythonAnywhere.",
+      "images": [
+        "images/portfolio/weather/p1.jpg",
+        "images/portfolio/weather/p2.jpg"
+      ],
+      "url": "https://moyamo.pythonanywhere.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-googlecloud-plain",
+          "name": "Google Maps API"
+        }
+      ]
+    },
+    {
+      "title": "Team Project - Blog Website",
+      "startDate": "2023",
+      "description": "Collaborative project that included user authentication, blog creation/editing, comments, and a like/unlike system. Built using Node.js, Express, and MySQL.",
+      "images": [
+        "images/portfolio/blog/p1.jpg",
+        "images/portfolio/blog/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Starting Creating Education",
+      "title": "Education Consultant",
+      "years": "07.2018 - 10.2023",
+      "mainTech": ["CRM"],
+      "technologies": [
+        "Sales Support",
+        "Student Application Processing",
+        "Digital Communication",
+        "Client Advising"
+      ]
+    }
+  ],
+  "skills": {
+    "icons": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "80"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
       }
     ]
   }
+}

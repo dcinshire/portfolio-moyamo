@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -44,10 +43,12 @@ class App extends Component {
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    this.loadResumeFromPath("res_primaryLanguage.json");
+
+    // this.applyPickedLanguage(
+    //   window.$primaryLanguage,
+    //   window.$secondaryLanguageIconId
+    // );
   }
 
   loadResumeFromPath(path) {
@@ -82,8 +83,14 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
+        <Header
+          sharedData={{
+            ...this.state.sharedData.basic_info,
+            social: this.state.sharedData.social,
+          }}
+        />
+
+        {/* <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
               this.applyPickedLanguage(
@@ -116,7 +123,7 @@ class App extends Component {
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
-        </div>
+        </div> */}
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
@@ -133,7 +140,9 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        {this.state.sharedData.basic_info && (
+          <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        )}
       </div>
     );
   }
