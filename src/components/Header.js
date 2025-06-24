@@ -29,9 +29,9 @@ class Header extends Component {
     let social = [];
 
     if (this.props.sharedData) {
-      name = this.props.sharedData.name;
+      name = this.props.sharedData.basic_info?.name || "";
       social = this.props.sharedData.social || [];
-      this.titles = this.props.sharedData.titles
+      this.titles = (this.props.sharedData?.titles || [])
         .map((x) => [x.toUpperCase(), 1500])
         .flat();
     }

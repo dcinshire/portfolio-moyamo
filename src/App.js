@@ -71,8 +71,9 @@ class App extends Component {
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        this.setState({ sharedData: data }, () => {
+          document.title = this.state.sharedData.basic_info.name;
+        });
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -141,7 +142,7 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         {this.state.sharedData.basic_info && (
-          <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+          <Footer sharedData={this.state.sharedData} />
         )}
       </div>
     );

@@ -18,7 +18,7 @@ at GitHub. Check live preview(link below).
 
 <h3>:eye_speech_bubble: Live demo</h3>
 
-Check live demonstration <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
+Check live demonstration <a href="https://dcinshire.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
 
 <img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
@@ -26,13 +26,13 @@ Check live demonstration <a href="https://dorota1997.github.io/react-frontend-de
 
 1. Clone or fork project.
 2. Install required dependencies with `npm install`.
-3. Remove `homepage` entirely from `package.json` or set it to single dot. 
+3. Remove `homepage` entirely from `package.json` or set it to single dot.
 
 ```
 // package.json
 {
   "name": "react-frontend-dev-portfolio",
-  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",   <-- remove/edit this
+  "homepage": "https://dcinshire.github.io/react-frontend-dev-portfolio/",   <-- remove/edit this
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -89,14 +89,14 @@ homepage property or json data won't load.
 </pre>
 </details>
 <details>
-<summary>[ 30.11.2020, contributor: <a href="https://github.com/dorota1997">@dorota1997</a> ]</summary>
+<summary>[ 30.11.2020, contributor: <a href="https://github.com/dcinshire">@dorota1997</a> ]</summary>
 <pre>
 - updated readme section
 - fixed problem of json files not being read
 </pre>
 </details>
 <details>
-<summary>[ 29/30.11.2020, contributor: <a href="https://github.com/trolit">@trolit</a> ]</summary>
+<summary>[ 29/30.11.2020, contributor: <a href="https://github.com/dcinshire">@trolit</a> ]</summary>
 <pre>
 - changed resume files names to more "universal"
 - moved languages names to global variables
