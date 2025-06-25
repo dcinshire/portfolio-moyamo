@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-moyamo/static/css/main.7573cbd3.chunk.css",
+    "main.js": "/portfolio-moyamo/static/js/main.3c9f1ecb.chunk.js",
+    "main.js.map": "/portfolio-moyamo/static/js/main.3c9f1ecb.chunk.js.map",
+    "runtime-main.js": "/portfolio-moyamo/static/js/runtime-main.9b4404a7.js",
+    "runtime-main.js.map": "/portfolio-moyamo/static/js/runtime-main.9b4404a7.js.map",
+    "static/css/2.58736d6f.chunk.css": "/portfolio-moyamo/static/css/2.58736d6f.chunk.css",
+    "static/js/2.92a2bb87.chunk.js": "/portfolio-moyamo/static/js/2.92a2bb87.chunk.js",
+    "static/js/2.92a2bb87.chunk.js.map": "/portfolio-moyamo/static/js/2.92a2bb87.chunk.js.map",
+    "index.html": "/portfolio-moyamo/index.html",
+    "precache-manifest.2777de85da96ea80b12f008417f0a281.js": "/portfolio-moyamo/precache-manifest.2777de85da96ea80b12f008417f0a281.js",
+    "service-worker.js": "/portfolio-moyamo/service-worker.js",
+    "static/css/2.58736d6f.chunk.css.map": "/portfolio-moyamo/static/css/2.58736d6f.chunk.css.map",
+    "static/css/main.7573cbd3.chunk.css.map": "/portfolio-moyamo/static/css/main.7573cbd3.chunk.css.map",
+    "static/js/2.92a2bb87.chunk.js.LICENSE.txt": "/portfolio-moyamo/static/js/2.92a2bb87.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b4404a7.js",
+    "static/css/2.58736d6f.chunk.css",
+    "static/js/2.92a2bb87.chunk.js",
+    "static/css/main.7573cbd3.chunk.css",
+    "static/js/main.3c9f1ecb.chunk.js"
+  ]
+}

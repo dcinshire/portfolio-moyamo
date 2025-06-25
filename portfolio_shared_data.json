@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "name": "Moya Mo",
+    "titles": ["Front-end Developer", "IT graduate"],
+
+    "image": "myProfile.jpg"
+  },
+  "social": [
+    {
+      "name": "github",
+      "url": "https://dcinshire.github.io/portfolio-moyamo/",
+      "class": "fab fa-github"
+    }
+  ],
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "80"
+      },
+
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      }
+    ]
+  }
+}

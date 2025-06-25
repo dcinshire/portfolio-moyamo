@@ -1,0 +1,154 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm MOYA MO, a passionate IT graduate based in Auckland, New Zealand. I specialize in full-stack development using React, Flask, and MySQL. I'm always eager to tackle real-world challenges with creative and efficient code.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    },
+    "name": "Moya Mo",
+    "titles": ["Front-end Developer", "IT Graduate"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://dcinshire.github.io/portfolio-moyamo/",
+        "class": "fab fa-github"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "projects": [
+    {
+      "title": "New Zealand Weather Metrics System",
+      "startDate": "2024",
+      "description": "A full-stack application allowing users to select and track weather forecasts for specific locations using Google Maps and MetService API. Built with React and Flask. Hosted on PythonAnywhere.",
+      "images": ["images/weather/p1.jpg", "images/weather/p2.jpg"],
+      "url": "https://moyamo.pythonanywhere.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-googlecloud-plain",
+          "name": "Google Maps API"
+        }
+      ]
+    },
+
+    {
+      "title": "Individual Project - Biosecurity",
+      "startDate": "2023",
+      "description": "A responsive system for managing users and biosecurity guides. Admins and staff can create, edit, and delete guides, while mariners can view them. All users can update their profiles, and the system includes form validation and mobile support.",
+      "images": ["images/bio/p1.jpg", "images/bio/p2.jpg"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    },
+
+    {
+      "title": "Team Project - Blog Website",
+      "startDate": "2022",
+      "description": "Collaborative project that included user authentication, blog creation/editing, comments, and a like/unlike system. Built using Node.js, Express, and MySQL.",
+      "images": ["images/blog/p1.jpg", "images/blog/p2.jpg"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Master of Applied Computing",
+      "title": "Lincoln University",
+      "years": "2023 - 2025",
+      "mainTech": ["Python", "Flask", "MySQL"],
+      "technologies": [
+        "Python programming",
+        "User Engagement and Business Analysis",
+        "User Experience ",
+        "Advanced Database Management"
+      ]
+    },
+    {
+      "company": "Postgraduate certificate in Information Technology",
+      "title": "Auckland University of Technology",
+      "years": "2022 - 2023",
+      "mainTech": ["JavaScript", "Java", "Node.js"],
+      "technologies": [
+        "Web Development",
+        "Database Management",
+        "Software Engineering Principles",
+        "Agile Methodologies"
+      ]
+    }
+  ],
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "80"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      }
+    ]
+  }
+}
