@@ -24,10 +24,7 @@
       "title": "New Zealand Weather Metrics System",
       "startDate": "2024",
       "description": "A full-stack application allowing users to select and track weather forecasts for specific locations using Google Maps and MetService API. Built with React and Flask. Hosted on PythonAnywhere.",
-      "images": [
-        "images/portfolio/weather/p1.jpg",
-        "images/portfolio/weather/p2.jpg"
-      ],
+      "images": ["images/weather/p1.jpg", "images/weather/p2.jpg"],
       "url": "https://moyamo.pythonanywhere.com",
       "technologies": [
         {
@@ -44,14 +41,34 @@
         }
       ]
     },
+
+    {
+      "title": "Individual Project - Biosecurity",
+      "startDate": "2023",
+      "description": "A responsive system for managing users and biosecurity guides. Admins and staff can create, edit, and delete guides, while mariners can view them. All users can update their profiles, and the system includes form validation and mobile support.",
+      "images": ["images/bio/p1.jpg", "images/bio/p2.jpg"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    },
+
     {
       "title": "Team Project - Blog Website",
-      "startDate": "2023",
+      "startDate": "2022",
       "description": "Collaborative project that included user authentication, blog creation/editing, comments, and a like/unlike system. Built using Node.js, Express, and MySQL.",
-      "images": [
-        "images/portfolio/blog/p1.jpg",
-        "images/portfolio/blog/p2.jpg"
-      ],
+      "images": ["images/blog/p1.jpg", "images/blog/p2.jpg"],
       "url": "",
       "technologies": [
         {
@@ -71,15 +88,27 @@
   ],
   "experience": [
     {
-      "company": "Starting Creating Education",
-      "title": "Education Consultant",
-      "years": "07.2018 - 10.2023",
-      "mainTech": ["React"],
+      "company": "Master of Applied Computing",
+      "title": "Lincoln University",
+      "years": "2023 - 2025",
+      "mainTech": ["Python", "Flask", "MySQL"],
       "technologies": [
-        "Sales Support",
-        "Student Application Processing",
-        "Digital Communication",
-        "Client Advising"
+        "Python programming",
+        "User Engagement and Business Analysis",
+        "User Experience ",
+        "Advanced Database Management"
+      ]
+    },
+    {
+      "company": "Postgraduate certificate in Information Technology",
+      "title": "Auckland University of Technology",
+      "years": "2022 - 2023",
+      "mainTech": ["JavaScript", "Java", "Node.js"],
+      "technologies": [
+        "Web Development",
+        "Database Management",
+        "Software Engineering Principles",
+        "Agile Methodologies"
       ]
     }
   ],

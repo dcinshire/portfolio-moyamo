@@ -27,12 +27,19 @@ class Projects extends Component {
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
+                <div style={{ height: "360px", width: "100%" }}>
                   <img
-                    src={projects.images[0]}
+                    src={process.env.PUBLIC_URL + "/" + projects.images[0]}
                     alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{
+                      display: "block",
+                      width: "auto",
+                      maxWidth: "100%",
+                      height: "240px",
+                      objectFit: "contain",
+                      margin: "0 auto",
+                      position: "relative",
+                    }}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
